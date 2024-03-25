@@ -3,6 +3,8 @@ import axios from 'axios';
 import AuthAPI from './AuthAPI';
 import { useNavigate } from 'react-router-dom';
 import { Cookies } from 'react-cookie';
+import './userProfile.css';
+
 
 const UserProfile = () => {
   const navigate = useNavigate();
@@ -65,7 +67,7 @@ const UserProfile = () => {
       )}
 
       <div className='d-flex justify-content-center bg-secondary rounded p-4 my-5'>
-        <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="" />
+        {/* <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="" /> */}
       </div>
     </div>
   );
