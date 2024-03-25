@@ -69,16 +69,4 @@ This project demonstrates a simple implementation of user authentication using D
 3. Explore the protected routes available to authenticated users.
 4. Log out when done.
 
-# Contributing
-If you'd like to contribute to this project or want to make it more efficient, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature/your-feature).
-3. Commit your changes (git commit -am 'Add new feature').
-4. Push to the branch (git push origin feature/your-feature).
-5. Create a new pull request.
-
-# License
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
-
 
